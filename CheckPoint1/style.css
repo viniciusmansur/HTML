@@ -69,6 +69,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 30px;
 }
 
 .box1 p, .box2 p {
@@ -113,5 +114,17 @@ p {
     border-radius: 10px;
     border: 5px solid;
     border-color: #064661;
+}
+
+.galImages {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.galImages img {
+    height: 400px;
+    width: 400px;
+    border-radius: 50px;
 }
 
