@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+
 body {
     margin: 0px;
     padding: 0px;
@@ -5,7 +7,7 @@ body {
 }
 
 header {
-    background-color: black;
+    background-color: #064661;
     color: white;
     margin: 0px;
     padding: 0px;
@@ -14,12 +16,27 @@ header {
 }
 
 header h1 {
-    margin: 0px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 40px;
+    font-family: "Limelight", sans-serif;
 }
 
 .textH {
     display: flex;
     align-items: center;
     padding: 40px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.texttitle {
+    font-family: "Limelight", sans-serif;;
+    padding-top: 50px;
+    color: #064661;
+}
+
+.container {
+    padding-left: 40px;
+    padding-right: 40px;
 }
