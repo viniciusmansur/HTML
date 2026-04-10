@@ -32,8 +32,8 @@ header h1 {
     width: 100%;
 }
 
-.texttitle {
-    font-family: "Limelight", sans-serif;;
+.textTitle {
+    font-family: "Limelight", sans-serif;
     padding-top: 50px;
     color: #064661;
 }
@@ -64,3 +64,54 @@ p {
     display: flex;
     flex-direction: column;
 }
+
+.boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box1 p, .box2 p {
+    padding-left: 30px;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+#boxText1 {
+    font-family: "Limelight", sans-serif;
+    color: #262626;
+}
+
+#boxText15 {
+    font-family: "Limelight", sans-serif;
+    color: #FFFFFF;
+}
+
+#boxText2 {
+    font-family: "Poppins", sans-serif;
+    color: #262626;
+}
+
+#boxText25 {
+    font-family: "Poppins", sans-serif;
+    color: #FFFFFF;
+}
+
+.box1{
+    background-color: #99BEDF;
+    height: 200px;
+    width: 500px;
+}
+
+.box2{
+    background-color: #064661B2;
+    height: 200px;
+    width: 500px;
+}
+
+.box1, .box2 {
+    border-radius: 10px;
+    border: 5px solid;
+    border-color: #064661;
+}
+
