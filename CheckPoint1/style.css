@@ -5,7 +5,6 @@ body {
     margin: 0px;
     padding: 0px;
     border: 0px;
-    margin-bottom: 50px;
 }
 
 header {
@@ -132,6 +131,7 @@ p {
     padding-top: 30px;
     display: flex;
     flex-direction: column;
+    padding-bottom: 40px;
 }
 
 .contacts img {
@@ -147,4 +147,20 @@ p {
 .contacts div, p {
     justify-content: start;
     align-items: center;
+}
+
+footer {
+    background-color: #064661;
+    padding: 35px;
+    font-family: "Poppins", sans-serif;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h2 {
+    margin: 0px;
+    padding: 0px;
 }
