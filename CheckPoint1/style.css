@@ -51,7 +51,7 @@ p {
 
 .textimage {
     display: flex;
-    
+    justify-content: space-around;
 }
 
 .textimage img{
