@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: "Jockey One", Roboto, Calibri, sans-serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 70px 0;
+}
+
+#personagens, #viloes, #final {
+    border-bottom: 30px solid #5ED338;
+}
+
+#banner { background-color: #F43443; }
+#inicio { background-color: #E8E8E0; }
+#personagens { background-color: #819DF9; }
+#poderes { background-color: #E7D5AB; padding: 50px 0; }
+#viloes { background-color: #555250; border-color: #FB3603; }
+#final { background-color: #819DF9; }
+
+h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+#banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao {
+    background-color: #5ED338;
+    color: #fff;
+    border-radius: 15px;
+    padding: 10px 30px;
+    font-size: 30px;
+    text-decoration: none;
+    width: 270px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.personagens-lista {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.personagens-item {
+    width: 170px;
+    text-align: center;
+}
+
+.personagens-item img {
+    border-radius: 100%;
+}
+
+h4 {
+    background-color: #4d6dd2;
+    border-radius: 10px;
+    color: #fff;
+    align-items: center;
+    font-size: 24px;
+    padding: 5px 0;
+    margin-top: 10px;
+}
+
+.poder-lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.poder-item{
+    border-radius: 10px;
+    border: 10px #e7b300 solid;
+    width: 120px;
+    height: 120px;
+
+ img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
+
+}
+
+.viloes-lista {
+    display: flex;
+    justify-content: space-around;
+}
+
+.viloes-item img{
+    border-radius: 100%;
+}
+
+.vilao-itens{
+    display: flex;
+    gap: 70px;
+}
+
+.mario-item {
+
+
+ img{
+    border-radius: 100%;
+}
+}
+
+#final{
+    padding-bottom: 0;
+}
+
+.final-lista{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+}
